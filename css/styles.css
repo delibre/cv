@@ -44,6 +44,18 @@ a:hover {
   color: #EAF6F6;
 }
 
+.hyper-link {
+  color: #085755;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: none;
+}
+
+.hyper-link:hover {
+  color: #1FA3A1;
+}
+
 ul {
   margin: auto;
 }
@@ -77,14 +89,10 @@ ul {
   margin: auto;
 }
 
-.skill-row {
+.hobbies-row {
   width: 50%;
-  margin: 6% auto 2%;
+  margin: 0 auto;
   text-align: left;
-}
-
-.skill-margin {
-  margin-bottom: 0;
 }
 
 .skills-to-learn {
@@ -93,17 +101,63 @@ ul {
   margin: 60px auto 100px;
 }
 
-.first-column-learn {
-  float: left;
-  margin: 0 100px;
-}
-
 .computer-img {
   border-radius: 100%;
-  width: 20%;
-  float: left;
-  margin-right: 2%;
-  margin-bottom: 0;
+  width: 120px;
+  display: block;
+}
+
+.skill-row {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.skills-block {
+    display: inline-block;
+    width: 100%;
+}
+
+.skills-table,
+.study-table {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    text-align: left;
+}
+
+.study-table {
+    padding-left: 20%;
+}
+
+.first-column,
+.second-column,
+.first-column-learn,
+.second-column-learn {
+    width: 50%;
+}
+
+.first-column,
+.second-column {
+    min-width: 325px;
+}
+
+.first-column-learn,
+.second-column-learn {
+    min-width: 200px;
+}
+
+.my-projects {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#my-skills-label {
+    text-align: left;
 }
 
 .bootcamp-link {
@@ -114,11 +168,6 @@ ul {
 
 .bootcamp-link:hover {
   color: #085755;
-}
-
-.first-column {
-  float: left;
-  margin-right: 70px;
 }
 
 .hobby-img {
